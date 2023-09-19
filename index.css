@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.star_button{
+    width: 7vw;
+    height: 7vw;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 1%;
+    background-color: #b2d8ff;
+}
+
+.star_button:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
