@@ -21,6 +21,8 @@ body{
     transition: 0.5s;
 }
 
-@media screen {
-    
+@media screen and (max-width:480px){
+    .star_button{
+        font-size: 4vw;
+    }
 }
